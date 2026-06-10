@@ -13,6 +13,10 @@ $env:PROM_URL = "http://localhost:9090"
 python sre.py
 ```
 
+All settings come from environment variables. Copy `.env.example` to `.env` as a starting
+point (see [DOCUMENTATION.md](DOCUMENTATION.md#4-configuration-environment-variables) for the
+full list).
+
 First, run `/discover` once so the environment is saved into `memory.json`. Then:
 
 ```
